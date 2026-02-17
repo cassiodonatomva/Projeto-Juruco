@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>757</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>757</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <widget class="QMenu" name="menuOr_amentos">
+     <property name="title">
+      <string>Orçamentos</string>
+     </property>
+     <addaction name="actionNovo"/>
+     <addaction name="actionAbertos"/>
+     <addaction name="actionCancelar"/>
+    </widget>
+    <widget class="QMenu" name="menuPedidos">
+     <property name="title">
+      <string>Pedidos</string>
+     </property>
+     <addaction name="actionNovo_2"/>
+     <addaction name="actionAbertos_2"/>
+     <addaction name="actionCancelar_2"/>
+    </widget>
+    <widget class="QMenu" name="menuContas_a_Pagar">
+     <property name="title">
+      <string>Contas a Pagar</string>
+     </property>
+     <addaction name="actionNovo_3"/>
+     <addaction name="actionEditar"/>
+     <addaction name="actionCancelar_3"/>
+    </widget>
+    <widget class="QMenu" name="menuContas_a_Receber">
+     <property name="title">
+      <string>Contas a Receber</string>
+     </property>
+     <addaction name="actionNovo_4"/>
+     <addaction name="actionEditar_2"/>
+     <addaction name="actionCancelar_4"/>
+    </widget>
+    <widget class="QMenu" name="menuRelatorios">
+     <property name="title">
+      <string>Relatorios</string>
+     </property>
+     <addaction name="actionContas_a_Pagar_2"/>
+     <addaction name="actionContas_a_Receber_2"/>
+     <addaction name="actionOrcamentos"/>
+     <addaction name="actionRelatorios_2"/>
+    </widget>
+    <widget class="QMenu" name="menuUsuarios">
+     <property name="title">
+      <string>Usuarios</string>
+     </property>
+     <addaction name="actionNovo_5"/>
+     <addaction name="actionEditar_3"/>
+    </widget>
+    <addaction name="menuOr_amentos"/>
+    <addaction name="menuPedidos"/>
+    <addaction name="menuContas_a_Pagar"/>
+    <addaction name="menuContas_a_Receber"/>
+    <addaction name="menuRelatorios"/>
+    <addaction name="menuUsuarios"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNovo">
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="actionAbertos">
+   <property name="text">
+    <string>Abertos</string>
+   </property>
+  </action>
+  <action name="actionCancelar">
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </action>
+  <action name="actionNovo_2">
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="actionAbertos_2">
+   <property name="text">
+    <string>Abertos</string>
+   </property>
+  </action>
+  <action name="actionCancelar_2">
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </action>
+  <action name="actionNovo_3">
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="actionEditar">
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </action>
+  <action name="actionCancelar_3">
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </action>
+  <action name="actionNovo_4">
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="actionEditar_2">
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </action>
+  <action name="actionCancelar_4">
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </action>
+  <action name="actionContas_a_Pagar_2">
+   <property name="text">
+    <string>Contas a Pagar</string>
+   </property>
+  </action>
+  <action name="actionContas_a_Receber_2">
+   <property name="text">
+    <string>Contas a Receber</string>
+   </property>
+  </action>
+  <action name="actionOrcamentos">
+   <property name="text">
+    <string>Orcamentos</string>
+   </property>
+  </action>
+  <action name="actionRelatorios_2">
+   <property name="text">
+    <string>Pedidos</string>
+   </property>
+  </action>
+  <action name="actionNovo_5">
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="actionEditar_3">
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
