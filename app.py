@@ -42,7 +42,7 @@ class Login(QDialog):
         User = self.ui.lineEdit.text()
         passD = self.ui.lineEdit_2.text()
         if User == admin and passD == senha:
-            QMessageBox.information(self, "Login realizado", "Nao deu certo")
+            QMessageBox.information(self, "Login realizado", "deu certo")
             self.window = Principal()
             self.window.show()
             self.accept()
